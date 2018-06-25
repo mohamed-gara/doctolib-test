@@ -20,7 +20,7 @@ describe('get openings', () => {
         ]);
     });
 
-    it('should get recursive openings ', async () => {
+    it('should get recursive openings', async () => {
         expect(await getOpenings(new Date('2018-01-01'))).toHaveLength(1);
     });
 
